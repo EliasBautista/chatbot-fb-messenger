@@ -1,0 +1,32 @@
+say: "Hola!, Por favor selecciona una opción para poder ayudarte."
+answers:
+
+  Info. del proyecto:
+    say: "Este es un proyecto para la asignatura de Paradigmas de Programación"
+    answers:
+      Acerca de:
+        say: "Este es un Chatbot que se creo con Python, Google Cloud Storage y Google App Engine"
+      Google:
+        say: "Para el manejo de Google Cloud Storage y Google App Engine, se empleo el Google Cloud SDK, todo viene en la documentación del proyecto"
+      Python:
+        say: "Para este proyecto se utilizo la versión 2.7.18 de Python, consulta la documentación :)"
+
+  Documentación:
+    say: "Claro :)"
+    answers:
+      Documento Word:
+        say: "Puedes revisar la documentación de este proyecto mediante el siguiente link: https://drive.google.com/file/d/1PocyLpsnzr-zRJuVTuRLDMQOvj894PXm/view?usp=sharing"
+      Contacto:
+        say: "elias.bautistaflores@outlook.com"
+      Cancion:
+        say: "La chida :3 https://www.youtube.com/watch?v=4D2qcbu26gs"
+
+  Quiero iniciar una conversacion:
+    say: "Hola, ¿Que te gustaría saber?"
+    answers:
+      Duda con un código:
+        say: "En un momento me comunico contigo para brindarte apoyo."
+      Invitación a una peda:
+        say: "Claro manix, cuenta conmigo 7u7"
+      Hablar con el Admin:
+        say: "Seguro, en un momento te contesto ;)"
